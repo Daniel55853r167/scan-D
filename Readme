@@ -1,0 +1,32 @@
+# scan-D
+
+`scan-D` es una herramienta de escaneo de redes diseñada para realizar escaneos de puertos y servicios utilizando Nmap. El script en Python permite seleccionar diferentes tipos de escaneo y muestra los resultados en la terminal con colores para facilitar la visualización. Además, permite guardar los resultados en un archivo de texto en el escritorio.
+
+## Características
+
+- Selección de 15 tipos diferentes de escaneo con opciones personalizables.
+- Resultados de escaneo mostrados en la terminal con colores:
+  - Puertos abiertos en verde.
+  - Servicios en amarillo.
+- Opción para guardar los resultados en un archivo de texto en el escritorio.
+- Interfaz de usuario interactiva con menú de opciones.
+
+## Requisitos
+
+- **Python 3**: Asegúrate de tener Python 3 instalado.
+- **Nmap**: Debe estar instalado en tu sistema.
+- **Dependencias Python**:
+  - `termcolor`
+
+## Instalación
+
+1. **Clona el Repositorio**
+
+   Clona este repositorio a tu máquina local usando `git`:
+
+   ```bash
+   git clone https://github.com/Daniel55853R167/scan-D.git
+
+cd scan-D
+ 
+python3 scan_d.py
